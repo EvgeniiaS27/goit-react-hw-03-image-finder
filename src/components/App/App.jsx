@@ -12,7 +12,6 @@ export class App extends Component {
   state = {
     query: '',
     images: [],
-
     loading: false,
     error: null,
     page: 1,
