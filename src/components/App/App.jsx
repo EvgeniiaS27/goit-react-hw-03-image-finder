@@ -86,7 +86,7 @@ export class App extends Component {
       <div className={css.app}>
         <Searchbar onSubmit={this.handleFormSubmit} />
 
-        {error && <h1>{error.massege}</h1>}
+        {error && <h1>{error.message}</h1>}
         {isOpenModal && (
           <Modal
             image={activeImage}
